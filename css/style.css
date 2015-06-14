@@ -4,21 +4,21 @@ html {
 }
 
 body {
-/*    max-width: 50em;*/
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1em;
 }
 
 header {
-/*    max-width: 50em;*/
-/*    background-color: #699BBA;  1e5799*/
+    position:fixed;
+    min-height: 5em;
+    min-width: 100%;
     padding: 1em;
-    background: linear-gradient(215deg, #7db9e8 0%,#1e5799 100%);
+    background: linear-gradient(315deg, #2E475D 0%,#A0CDEC 100%);
+    border-bottom: 0.5em solid #2E475D;
 }
 
 .banner_text > h1 {
     font-family: 'Montserrat Subrayada', sans-serif;
-    font-size: 3.8em;
+    font-size: 3.5em;
     margin: 0 0 0 0;
 }
 
@@ -28,32 +28,33 @@ header {
 }
 
 .banner_text > p {
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin: 0;
+    padding-left: 1.3em;
 }
 
 header > img {
-/*    float:right;*/
     border-radius: .6em 0 .9em 0;
 /*    border: 1px solid #b5b5b5;*/
     box-shadow: 0.3em 0.3em 0 #493125;
     margin-right: 1em;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 700px) {
     .banner_text > h1 {
-        font-size: 3em;
+        font-size: 2em;
     }
 }
 
 .aboutme {
-    background-image: url(../water_sunset.JPG);
+    background-image: url(../water_sunset.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:top;
 /*    min-height: 40em;*/
     color: white;
-    padding: 3em 0 3em 0;
+    padding: 10em 0 3em 0;
+/*    margin-top: 10em;*/
 }
 
 .intro,
@@ -71,25 +72,22 @@ header > img {
     margin: 3em 10%;
 }
 
-
-h1 {
-/*    font-size: 1.5em;*/
-}
-
 .moreabout_in {
     margin: 0.4em 0.9em;
 
 }
 
-p, .moreabout > p {
-    margin: 0.4em 0 0 .4em;
+h1 {
+    padding-left: 0.4em;
 }
 
-.intro > p,
-.where > p,
-.moreabout > p,
-footer > p {
+p, .moreabout > p {
+    margin: 0.4em 0.4em 1.4em 1.4em;
 	letter-spacing: 0.01em;
+}
+
+.projects {
+    margin: 0 10% 0 10%;
 }
 
 .projects >img {
@@ -97,15 +95,16 @@ footer > p {
     border-radius: 0.35em;
     margin-top: 2em;
     margin-bottom: 2em;
-    margin-left: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 footer {
 	margin-top: 2em;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
-	background-color: #699BBA;
-	border-bottom: 1em solid #246485;
+	background-color: #A0CDEC;
+	border-bottom: 0.5em solid #2E475D;
     text-align: center;
 }
     
