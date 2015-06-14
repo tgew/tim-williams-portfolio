@@ -9,24 +9,32 @@ body {
 
 header {
 /*    max-width: 50em;*/
+/*    background-color: black*/
 }
 
-h1 {
-    font-family: 'Amatic SC', cursive;
-    font-weight: 700;
+.banner_text > h1 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+/*    font-weight: 700;*/
 /*    line-height: 2em;*/
     font-size: 4em;
     margin: 0 0 .2em 0;
+/*    color:#ffffff;*/
     }
-h2 {
+
+.banner_text > p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+h1, h2 {
     font-family: 'Josefin Sans', sans-serif;
 }
 p {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1em;
-    font-weight: 700;
+/*    font-weight: 700;*/
 /*    line-height: 23px;*/
-    margin: 0 0 0 .4em;
+    margin: 0.4em 0 0 .4em;
     }
     
 .banner_text {
@@ -45,12 +53,16 @@ header > img {
 	display: inline;
 }
 
+.moreabout {
+    margin: 0.4em 0.9em;
+}
+
 .intro > p,
 .where > p,
 .moreabout > p,
 footer > p {
-	font-weight: 300;
-	letter-spacing: 0.05em;
+	letter-spacing: 0.01em;
+/*
 }
 
 h2 {
@@ -58,8 +70,9 @@ h2 {
 }
 
 h1 {
-	color:#D88828;
+
 }
+*/
 
 footer {
 	margin-top: 2em;
