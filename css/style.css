@@ -116,6 +116,15 @@ footer p {
 	color: white;
 }
 
+.footer_icons > i {
+    width: .7em;
+    border: 1px solid darkgray;
+    border-radius: 100%;
+    padding: .5em;
+    visibility: hidden;
+}
+
+
 
 
     
