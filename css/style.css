@@ -9,6 +9,7 @@ body {
 
 header {
     position:fixed;
+    z-index: 9999;
     min-height: 5em;
     min-width: 100%;
     padding: 1em;
@@ -66,6 +67,8 @@ header > img {
     margin: 0 10% 0 10%;
     box-shadow: 0.3em 0.33em 0 #000;
     border-radius: 0.35em;
+    opacity: .9;
+
 }
 
 .where {
