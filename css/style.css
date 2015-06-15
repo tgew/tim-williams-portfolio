@@ -108,20 +108,25 @@ footer {
     text-align: center;
 }
     
-.sociallinks > li {
-	display: inline;
+.sociallinks {
+	display: flex;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 25%;
+}
+
+.sociallinks div {
+    flex-grow: 1;
+    padding: .2em;
+    
 }
 
 footer p {
 	color: white;
 }
 
-.footer_icons > i {
-    width: .7em;
-    border: 1px solid darkgray;
-    border-radius: 100%;
-    padding: .5em;
-    visibility: hidden;
+footer i {
+    width: 1.7em;
 }
 
 
